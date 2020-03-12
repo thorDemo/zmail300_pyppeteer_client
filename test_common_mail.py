@@ -13,7 +13,7 @@ async def dialog_control(dialog):
 
 async def proxy_send_mail(proxies):
     browser = await launch({
-        'headless': False,
+        'headless': True,
         'dumpio': True,
         'autoClose': False,
         'args': [
